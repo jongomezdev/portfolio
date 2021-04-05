@@ -23,7 +23,7 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse menu" id="navbarText">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <a className="nav-link" title="Know about me" href="#about">
               About<span className="sr-only">(current)</span>
             </a>

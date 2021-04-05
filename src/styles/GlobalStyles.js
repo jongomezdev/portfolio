@@ -10,7 +10,8 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
   body {
-    background-image: url(${bg})
+    background-image: url(${bg});
+    background-attachment: fixed;
   }
 
 
