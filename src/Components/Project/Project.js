@@ -68,6 +68,8 @@ export default class Project extends Component {
                     class="btn btn-outline-primary btn-learn btn-block"
                     href={project.projectLearnMoreLink}
                     role="button"
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     Learn more
                   </a>
@@ -75,6 +77,8 @@ export default class Project extends Component {
                     class="btn btn-outline-primary btn-go btn-block"
                     href={project.projectGoLink}
                     role="button"
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     Go to app
                   </a>
