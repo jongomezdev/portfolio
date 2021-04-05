@@ -49,13 +49,20 @@ export default function Navbar() {
               className="nav-link"
               title="Download my resume"
               href="https://jongomez.dev/Assets/Jonathan-Gomez-resume.pdf"
+              rel="noreferrer"
+              target="_blank"
             >
               Resume
             </a>
           </li>
         </ul>
         <span className=" btn navbar-text">
-          <a href="https://github.com/jongomezdev" title="Github">
+          <a
+            href="https://github.com/jongomezdev"
+            title="Github"
+            rel="noreferrer"
+            target="_blank"
+          >
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </span>
