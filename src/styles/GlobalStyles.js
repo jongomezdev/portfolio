@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import bg from '../assets/images/bg.svg';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -9,10 +8,14 @@ const GlobalStyles = createGlobalStyle`
     --white: #fff;
     --grey: #efefef;
   }
-  body {
-    background-image: url(${bg});
-    background-attachment: fixed;
-  }
+
+  a {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1.5rem;
+}
 
 
   /* Scrollbar Styles */
