@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/portfolio/static/js/main.670b962d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.670b962d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ed80ef31.chunk.css",
+    "main.js": "/portfolio/static/js/main.aac5d0dc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.aac5d0dc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
-    "static/js/2.a9a76b9c.chunk.js": "/portfolio/static/js/2.a9a76b9c.chunk.js",
-    "static/js/2.a9a76b9c.chunk.js.map": "/portfolio/static/js/2.a9a76b9c.chunk.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3117553e.chunk.js": "/portfolio/static/js/2.3117553e.chunk.js",
+    "static/js/2.3117553e.chunk.js.map": "/portfolio/static/js/2.3117553e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.a9a76b9c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9a76b9c.chunk.js.LICENSE.txt"
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ed80ef31.chunk.css.map": "/portfolio/static/css/main.ed80ef31.chunk.css.map",
+    "static/js/2.3117553e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3117553e.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.aaba30bc.png": "/portfolio/static/media/bootstrap.aaba30bc.png",
+    "static/media/jupyter.svg.e0e612fd.png": "/portfolio/static/media/jupyter.svg.e0e612fd.png",
+    "static/media/mongodb.abda0740.png": "/portfolio/static/media/mongodb.abda0740.png",
+    "static/media/python.bacb71e5.png": "/portfolio/static/media/python.bacb71e5.png",
+    "static/media/react.6ab7e2e9.png": "/portfolio/static/media/react.6ab7e2e9.png",
+    "static/media/sequelize.844fb918.png": "/portfolio/static/media/sequelize.844fb918.png"
   },
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
-    "static/js/2.a9a76b9c.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.670b962d.chunk.js"
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3117553e.chunk.js",
+    "static/css/main.ed80ef31.chunk.css",
+    "static/js/main.aac5d0dc.chunk.js"
   ]
 }
