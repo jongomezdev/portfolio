@@ -55,13 +55,7 @@ export default class Project extends Component {
                 <p>{project.projectDescription}</p>
                 <h5>Technology</h5>
                 <p>{project.projectTech}</p>
-                {/* <div className="row text-center">
-                  {project.skillIcons.map((icon) => (
-                    <>
-                      <img src={icon} className="logo-tech" alt="tech-logo" />
-                    </>
-                  ))}
-                </div> */}
+
                 <hr />
                 <div className="col-xs-3">
                   <a
@@ -95,13 +89,7 @@ export default class Project extends Component {
         <h4>Projects</h4>
         <hr />
         {projectUI}
-        <a
-          class="btn btn-outline-primary btn-learn btn-block"
-          href="https://github.com/jongomezdev/"
-          role="button"
-        >
-          See all projects on GitHub
-        </a>
+
         <br />
       </>
     );

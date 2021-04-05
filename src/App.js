@@ -6,6 +6,7 @@ import Project from './Components/Project/Project';
 import About from './Components/About';
 import Skill from './Components/Skill/Skill';
 import GlobalStyles from './styles/GlobalStyles';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skill />
       <Project />
+      <Contact />
     </div>
   );
 }

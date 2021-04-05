@@ -10,12 +10,3 @@ img.project-screenshot {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-
-img.logo-tech {
-  margin: 0 auto;
-  max-height: 50px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
-}

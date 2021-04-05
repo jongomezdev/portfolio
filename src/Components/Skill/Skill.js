@@ -24,6 +24,7 @@ import sequelize from './skills/sequelize.png';
 import github from './skills/github.png';
 import git from './skills/git.png';
 import heroku from './skills/heroku.png';
+import jupyter from './skills/jupyter.svg.png';
 
 export default function Skill() {
   return (
@@ -158,6 +159,14 @@ export default function Skill() {
                   src={heroku}
                   className="responsive-img logo"
                   alt="heroku"
+                />
+                Heroku
+              </div>
+              <div className="col">
+                <img
+                  src={jupyter}
+                  className="responsive-img logo"
+                  alt="jupyter"
                 />
                 Heroku
               </div>
