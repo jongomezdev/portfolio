@@ -55,7 +55,7 @@ export default function Navbar() {
           </li>
         </ul>
         <span className=" btn navbar-text">
-          <a href="https://github.com/jongomezdev" title="Fork on GitHub">
+          <a href="https://github.com/jongomezdev" title="Github">
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </span>
