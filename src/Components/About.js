@@ -1,20 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 export default function About() {
-  const [aboutText, setAboutText] = useState([{}]);
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    const fetchAbout = async () => {
-      setIsLoading(true);
-      const res = await axios.get('https://jongomezdev.github.io/about.json');
-      setAboutText(res.data);
-      setIsLoading(false);
-    };
-    fetchAbout();
-  }, []);
-  console.log(aboutText);
   return (
     <div
       className="about card col shadow-lg p-3 mb-5 bg-white rounded alert"
