@@ -15,10 +15,10 @@ export default function Contact() {
   return (
     <ContactStyles>
       <div
-        class="contact card col shadow-lg p-3 mb-5 bg-white rounded alert"
+        className="contact card col shadow-lg p-3 mb-5 bg-white rounded alert"
         id="contact"
       >
-        <div class="card-content">
+        <div className="card-content">
           <h4>Contact</h4>
           <hr />
           <a

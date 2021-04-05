@@ -3,11 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top fixed-top shadow-lg p-3 mb-5 bg-white rounded alert container">
-      <a
-        className="navbar-brand btn"
-        title="Jonathan's Portfolio"
-        href="#intro"
-      >
+      <a className="navbar-brand btn" title="Jonathan's Portfolio" href="/">
         Jonathan Gomez
       </a>
       <button

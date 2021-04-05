@@ -35,7 +35,7 @@ export default class Project extends Component {
     const projectUI = projects.map((project, index) => {
       return (
         <ProjectStyles>
-          <div className="projects" id={project.projectTitle}>
+          <div className="projects" key={project.projectTitle}>
             <div className="card shadow-lg p-3 mb-5 bg-white rounded alert">
               <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -44,7 +44,7 @@ export default class Project extends Component {
                     className="carousel slide"
                     data-ride="carousel"
                   >
-                    <div className="carousel-inner">
+                    <div className="carousel-inner" key={project.projectTitle}>
                       {project.projectScreenshots.map((screenshot, index) => (
                         <div
                           className={
@@ -72,7 +72,7 @@ export default class Project extends Component {
                   <hr />
                   <div className="col-xs-3">
                     <a
-                      class="btn btn-outline-primary btn-learn btn-block"
+                      className="btn btn-outline-primary btn-learn btn-block"
                       href={project.projectLearnMoreLink}
                       role="button"
                       rel="noreferrer"
@@ -81,7 +81,7 @@ export default class Project extends Component {
                       Learn more
                     </a>
                     <a
-                      class="btn btn-outline-primary btn-go btn-block"
+                      className="btn btn-outline-primary btn-go btn-block"
                       href={project.projectGoLink}
                       role="button"
                       rel="noreferrer"
