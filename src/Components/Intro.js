@@ -29,7 +29,8 @@ export default function Intro() {
         />
         <h1 className="display-4">Jonathan Gomez</h1>
         <h5>
-          Full stack JavaScript developer building
+          Full stack JavaScript developer that loves designing and building
+          modern
           <Typewriter
             options={{
               strings: ['websites.', 'applications.', 'APIs.'],

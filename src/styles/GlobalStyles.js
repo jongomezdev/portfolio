@@ -9,13 +9,6 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
 
-  a {
-  color: rgba(0, 0, 0, 0.9);
-  text-decoration: none;
-  background-color: transparent;
-  padding: 10px;
-  font-size: 1.5rem;
-}
 
 
   /* Scrollbar Styles */
