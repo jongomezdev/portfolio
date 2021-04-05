@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import bg from '../assets/images/bg.svg';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -7,6 +8,9 @@ const GlobalStyles = createGlobalStyle`
     --yellow: #ffc600;
     --white: #fff;
     --grey: #efefef;
+  }
+  body {
+    background-image: url(${bg})
   }
 
 
