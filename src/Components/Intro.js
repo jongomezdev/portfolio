@@ -1,13 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import IntroStyles from '../styles/Intro';
-import styled from 'styled-components';
-
-const ContentWrapper = styled.div`
-  padding-top: 100px;
-  align-content: center;
-  height: 100vh;
-`;
 
 const profilePhoto = {
   borderRadius: '50%',
@@ -17,7 +10,7 @@ const profilePhoto = {
 
 export default function Intro() {
   return (
-    <ContentWrapper>
+    <>
       <IntroStyles className="text-center intro">
         <img
           title="Jonathan in Rome"
@@ -40,6 +33,6 @@ export default function Intro() {
           />
         </h5>
       </IntroStyles>
-    </ContentWrapper>
+    </>
   );
 }
