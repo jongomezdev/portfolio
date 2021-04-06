@@ -11,6 +11,14 @@ const ProjectStyles = styled.div`
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
+  a.btn {
+    background-color: #2e2e2e;
+    color: #fff;
+    &:hover {
+      background-color: #440a67;
+    }
+  }
 `;
 
 export default class Project extends Component {
@@ -72,22 +80,22 @@ export default class Project extends Component {
                   <hr />
                   <div className="col-xs-3">
                     <a
-                      className="btn btn-outline-primary btn-learn btn-block"
+                      className="btn btn-block"
                       href={project.projectLearnMoreLink}
                       role="button"
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Learn more
+                      GitHub Repo
                     </a>
                     <a
-                      className="btn btn-outline-primary btn-go btn-block"
+                      className="btn btn-block"
                       href={project.projectGoLink}
                       role="button"
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Go to app
+                      Go to App
                     </a>
                   </div>
                 </div>
