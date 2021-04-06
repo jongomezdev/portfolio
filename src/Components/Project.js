@@ -47,7 +47,7 @@ export default class Project extends Component {
     const projectUI = projects.map((project, index) => {
       return (
         <ProjectStyles>
-          <div className="projects" key={project.projectTitle}>
+          <div className="projects" key={project.projectTitle} id="projects">
             <div className="card shadow-lg p-3 mb-5 bg-white rounded alert">
               <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6 text-center">
