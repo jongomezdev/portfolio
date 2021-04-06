@@ -3,6 +3,10 @@ import axios from 'axios';
 import styled from 'styled-components';
 
 const ProjectStyles = styled.div`
+  h4 {
+    display: inline-block;
+    background: #fff9b0;
+  }
   img.project-screenshot {
     height: 400px;
   }
