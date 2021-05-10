@@ -83,7 +83,7 @@ export default function Navbar() {
             <a
               className="nav-link"
               title="Download my resume"
-              href="https://jongomez.dev/Assets/Jonathan.Gomez.Resume.pdf"
+              href="https://jongomez.dev/Assets/jonathangomezresume.pdf"
               rel="noreferrer"
               target="_blank"
             >
