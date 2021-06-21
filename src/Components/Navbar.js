@@ -43,8 +43,8 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="https://jongomez.dev/resume"
               title="resume"
+              href="https://jongomez.dev/resume"
               rel="noreferrer"
               target="_blank"
             >

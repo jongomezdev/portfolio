@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.499e8846.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.499e8846.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9f339fdc.chunk.js": "/portfolio/static/js/2.9f339fdc.chunk.js",
+    "static/js/2.9f339fdc.chunk.js.map": "/portfolio/static/js/2.9f339fdc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/js/2.9f339fdc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9f339fdc.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.aaba30bc.png": "/portfolio/static/media/bootstrap.aaba30bc.png",
+    "static/media/jupyter.svg.e0e612fd.png": "/portfolio/static/media/jupyter.svg.e0e612fd.png",
+    "static/media/mongodb.abda0740.png": "/portfolio/static/media/mongodb.abda0740.png",
+    "static/media/python.bacb71e5.png": "/portfolio/static/media/python.bacb71e5.png",
+    "static/media/react.6ab7e2e9.png": "/portfolio/static/media/react.6ab7e2e9.png",
+    "static/media/sequelize.844fb918.png": "/portfolio/static/media/sequelize.844fb918.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9f339fdc.chunk.js",
+    "static/js/main.499e8846.chunk.js"
+  ]
+}
