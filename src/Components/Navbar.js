@@ -48,7 +48,7 @@ export default function Navbar() {
               rel="noreferrer"
               target="_blank"
             >
-              TESTING
+              Resume
             </a>
           </li>
         </ul>
